@@ -1,0 +1,43 @@
+REM Title: Windows Restore Password Settings
+REM Author: Tiago DGY
+REM Target: Windows 10
+REM
+DELAY 1500
+TAB
+DELAY 500
+TAB
+DELAY 500
+TAB 
+DELAY 500
+ENTER
+DELAY 1000
+TAB
+DELAY 500
+ENTER
+DELAY 3000
+TAB
+DELAY 500
+ENTER
+DELAY 1000
+TAB
+DELAY 500
+ENTER
+DELAY 2000
+REM Insert in the next string the volume that you want to remove the password E.g c:
+STRING d:
+ENTER
+DELAY 1000
+STRING cd windows/system32
+ENTER
+DELAY 1000
+STRING del utilman.exe 
+ENTER
+DELAY 1000
+STRING ren utilmanoriginal.exe utilman.exe
+ENTER
+DELAY 1000
+ALT F4
+DELAY 1000
+ENTER
+
+
