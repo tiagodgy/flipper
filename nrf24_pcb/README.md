@@ -10,3 +10,10 @@
 </div>
 <br></br>
 <p align="center">The Gerber file for this project is located in this folder. You can upload it to PCBWAY or JLCPCB and select your preferred options, or use the predefined options which will work fine.</p>
+<h3>Components</h3>
+<ul>
+<li>1x 16v 10uF capacitor</li>
+<li>1x 50v 100nF capacitor</li>
+<li>1x nrf24l01</li>
+<li>18x pin header 90 degree 2.54 17mm</li>
+</ul>
